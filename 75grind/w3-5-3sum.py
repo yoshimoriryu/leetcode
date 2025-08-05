@@ -21,7 +21,7 @@ class Solution:
                                     ans.append(ts)
         return ans
 
-    # TLE JUGA COK WTF, tp better harusnya
+    # TLE JUGA WTF, tp better harusnya
     def threeSum2(self, nums: List[int]) -> List[List[int]]:
         ans = {}
         n = len(nums)
@@ -44,7 +44,7 @@ class Solution:
             res.append([int(i) for i in v.split(' ')])
         return res
 
-    # failed to solve, mantap pol cok, bikin set; revisit count: 1
+    # failed to solve, mantap pol, bikin set; revisit count: 1
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         res = set()
 
