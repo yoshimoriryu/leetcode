@@ -30,7 +30,6 @@ class Solution:
                 else:
                     min_idx = min_idx
                 i += 1
-            # use bisect.bisect_left to search for index of minimum
             import bisect
             print(f"sums, min_sum, leftmost_idx {sums} {min_sum} {min_idx}")
             new_nums = nums[:min_idx] + [sums[min_idx]] + nums[min_idx+2:n]
